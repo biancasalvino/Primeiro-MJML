@@ -1,0 +1,114 @@
+<mjml>
+  <mj-head>
+
+    <mj-attributes>
+      <mj-all font-size="14px" padding="0" />
+      <mj-class name="center-email"  margin= "0 auto"
+    max-width="600px"
+    background-color="#6423a2"
+    height="100%" 
+    padding="0"
+    />
+
+    <mj-class name="text-show" color="white" font-size="14px" line-height="2"
+    />
+
+    <mj-class name="content" padding="30px" />
+
+    <mj-class name="button-access" background-color="#ff0887" text-transform="uppercase" curso=""/>
+
+
+     <mj-class name="content-ebook" padding="30px" />
+
+    <mj-class  name="text-ebook" color="white" font-size="14px" line-height="2"/>
+    
+    <mj-class name="line-hr"height="20px" padding="20px"/>
+
+    <mj-class name="logo-footer" padding="20px">
+    </mj-attributes>
+
+    <mj-style>
+    body {
+        background: #ffffff;
+    }
+    
+    a:hover, img:hover{
+        opacity: 80%;
+    }
+   
+    
+       
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body>
+
+    <!--logo-header-->
+       <mj-wrapper mj-class="center-email">
+ 
+ <mj-section >          
+            <mj-column>
+             <mj-image src="assests/melhores-celulares.jpg" width="600px"/>
+              
+            </mj-column>          
+    </mj-section>
+      
+    <mj-section mj-class="content">
+    <mj-column>
+            <mj-text mj-class="text-show" >
+                
+                <p>Olá, <b>João,</b></p>
+                <p>As mudanças de mercado vem acontecendo de forma muito rápida...</p>
+                <p>E acaba ficando dificil acompanhar as principais tendencias e novas estratégias de marketing vendas.
+                <p>Você já sabe que um dos nossos principais objetivos é oferecer conteúdos de altissimo nível, capazes de impactar positivamete o seu trabalho.</p>
+                <p>Por isso, hoje estamos te enviando este email com acesso a um eBook com 158 dicas rápidas para você identificar oportunidades simples e conquistar mais resultados com Marketing Digital.</p>
+            
+                
+                </mj-text>
+    </mj-column>
+    </mj-section>
+
+    <mj-section>
+        <mj-column>        
+        <mj-button href="#" target="_blank"  mj-class="button-access"> Clique aqui para acessar as dicas
+
+
+        </mj-button>
+        </mj-column>  
+    </mj-section>
+
+  <mj-section mj-class="content-ebook">
+    <mj-column>
+            <mj-text mj-class="text-ebook" >           
+                
+                <p>No eBook, você vai encontrar dicas de baixo investimento e que têm resultados comprovados no dia a dia de algumas das maiores empresas. </p>
+                <p>Aproveite para começar a coloca-las em prática ainda hoje, <b>João!</b></p></p>            
+                        
+                
+            </mj-text>        
+
+    </mj-column>
+    </mj-section>
+
+     <mj-section mj-class="line-hr">
+        <mj-column>
+          <mj-text >
+                <hr>
+                  &ensp;
+                
+                </mj-text>
+     
+        </mj-column>
+    </mj-section>
+
+    <mj-section mj-class="logo-footer">
+    <mj-column>
+    <mj-image src="assests/logo.png" width="100px"/>
+    </mj-column>
+    </mj-section>
+
+   </mj-wrapper>
+
+  </mj-body>
+</mjml>
